@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "playwright test",
-    "generate-avatars": "node scripts/generate-avatars-simple.ts"
+    "generate-avatars": "node scripts/generate-avatars-v3.ts"
   },
   "dependencies": {
     "next": "^14.2.0",
