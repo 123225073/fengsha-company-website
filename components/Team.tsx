@@ -34,9 +34,9 @@ export function Team() {
               whileHover={{ scale: 1.05, y: -8 }}
               className="bg-gray-800 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300"
             >
-              {/* Avatar */}
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-gray-700">
-                <div className="w-full h-full flex items-center justify-center text-6xl">
+              {/* Avatar - 使用Emoji作为临时头像 */}
+              <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-gradient-to-br from-primary-start to-primary-end flex items-center justify-center shadow-xl">
+                <div className="text-6xl text-white">
                   {member.emoji}
                 </div>
               </div>
