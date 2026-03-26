@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-start: #ffffff;
+  --foreground-end: #94a3b8;
+  --background-start: #0f172a;
+  --background-end: #0f172a;
+}
+
+.dark {
+  --foreground-start: #ffffff;
+  --foreground-end: #94a3b8;
+  --background-start: #0f172a;
+  --background-end: #0f172a;
+}
+
+.light {
+  --foreground-start: #1e293b;
+  --foreground-end: #475569;
+  --background-start: #f8fafc;
+  --background-end: #f8fafc;
+}
+
+body {
+  color: var(--foreground-start);
+  background: var(--background-start);
+  font-family: var(--font-sans);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.glass-effect {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
